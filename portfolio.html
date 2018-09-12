@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>A.Y's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header id="home">
+        <div class="frame">
+            <div class="myName">Akari Yamabuki Portfolio</div>
+            <div class="engineer">HTML and Javascript Engineer</div>
+        </div>
+        <div class="button"><a href="#home"><i class="fas fa-home"></i> Home</a></div>
+        <div class="button"><a href="#profile"><i class="fas fa-user"></i> Profile</a></div>
+        <div class="button"><a href="#works"><i class="fas fa-code"></i> Works</a></div>
+        <div class="button"> <a href="#contact"><i class="fas fa-envelope"></i>Contact</a></div>
+    </header>
+    <main>
+        <div id="profile">
+            <span class="profileTitle"><i class="fas fa-user"></i> Profile</span>
+            <div class="profileMain">
+                高専生の時からプログラミングをやっています。<br>
+                インフラとWEB系のお仕事に携わっていました。<br>
+                某図書館にてプロジェクトマネジメント等もやっていました。<br />
+                今はHTML5とJavascriptを主に使用しています。<br />
+            </div>
+            <div class="programmingLanguage">
+                <div class="programmingLanguageTitle">
+                    使用する言語や機器
+                </div>
+                <div class="programmingLanguageMain">
+                    言語：HTML5,CSS3,Javascript,JQuery,Knockout.js<br />
+                    機器：Linux(LPIC level1保有),Cisco(L2,L3)
+                </div>
+            </div>
+        </div>
+        <div id="works">
+            <span class="worksTitle"><i class="fas fa-code"></i> Works</span>
+            <div class="worksMain">
+                <p>画像を押すと詳細が表示されます</p>
+                <div class="works1">
+                    <img src="works1.jpg" class="works1Img"/>
+                    <div class="works1Description">
+                        <span class="works1Title">Portfolio site</span><br />
+                        <span>URL:</span><br />
+                        <span>ソースコード：</span><br />
+                        <span>説明：このサイトです。</span><br />
+                        <span>使用した技術：HTML5,CSS,JQuery</span><br />
+                    </div>
+                </div>
+            </div>    
+            
+        </div>
+    </main>
+    <footer id="contact">
+        <div class="mail">
+            <i class="fas fa-envelope"></i>mail:ak.yamabuki@gmail.com
+        </div>
+    </footer>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
