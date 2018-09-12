@@ -59,16 +59,11 @@ header::before{
     text-align: center;
 }
 
-.button a{
-    width: 100%;
-    height: 100%;
-}
-
-.button a:link{
+a:link{
     color: black;
 }
 
-.button a:visited{
+a:visited{
     color: black;
 }
 
