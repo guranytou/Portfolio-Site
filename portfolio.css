@@ -108,7 +108,7 @@ main{
     text-align: center;
 }
 
-.works1Description{
+.descriptionDesign{
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -116,7 +116,16 @@ main{
     padding-top: 10px;
     padding-bottom: 20px;
     margin-top:20px;
+    margin-bottom: 10px;
     display:none;
+}
+
+.works2{
+    margin-top: 10px;
+}
+
+.works2Img{
+    width: 600px;
 }
 
 footer{
