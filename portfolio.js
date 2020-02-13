@@ -4,5 +4,11 @@ $(document).ready(function () {
     });
     $('.works2Img').click(function(){
         $('.works2Description').slideToggle();
-    })
+    });
+    $('.works3Img').click(function(){
+        $('.works3Description').slideToggle();
+    });
+    $('.works4Img').click(function(){
+        $('.works4Description').slideToggle();
+    });
 });

@@ -1,4 +1,4 @@
-﻿body{
+body{
     font-family: 'Yu Gothic';
 }
 
@@ -54,7 +54,7 @@ header::before{
     opacity: 0.7;
     font-size: 20px;
     display: inline-block;
-    width: 100px;
+    width: 130px;
     height: 30px;
     text-align: center;
 }
@@ -125,7 +125,15 @@ main{
 }
 
 .works2Img{
-    width: 600px;
+    width: 555px;
+}
+
+.works3Img{
+    width:555px;
+}
+
+.works4Img{
+    width: 555px;
 }
 
 footer{
